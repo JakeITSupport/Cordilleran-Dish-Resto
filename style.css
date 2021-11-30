@@ -1,0 +1,639 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: papyrus;
+  background-color: #fee2b3;
+  max-width: 1600px;
+  margin: auto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.conatiner1{
+  width: 100%;
+  height: 900px;
+  background-image: url(backgroundImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.con1Row1{
+  width: 98%;
+  height: auto;
+  margin: auto;
+}
+
+.con1Col1{
+  width: 33.33%;
+  float: left;
+}
+
+.con1Col1a{
+  width: 330px;
+}
+
+.con1Col1a img{
+  width: 50px;
+  height: auto;
+  float: left;
+  margin-top: 5px;
+}
+
+.con1Col1a h1{
+  font-size: 18pt;
+  float: left;
+  text-align: center;
+}
+
+.con1Col1b{
+  width: 450px;
+}
+
+.con1Col1b a{
+  float: left;
+  color: lightgray;
+  font-size: 14pt;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 30px;
+  font-weight: bolder;
+}
+
+.con1Col1b a:hover{
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.con1Col1c{
+  width: 220px;
+  margin-top: 5px;
+  float: right;
+}
+
+.con1Col1c img{
+  width: 40px;
+  height: auto;
+  margin-left: 5px;
+}
+
+
+
+/*------------------------------------*/
+
+.con1Row2{
+  width: 100%;
+  text-align: center;
+  float: left;
+  position: relative;
+  margin-top: 100px;
+  background-color: rgba(0,0,0,.5);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.con1Row2 h1{
+  font-size: 12pt;
+  font-family: Arial Rounded MT Bold;
+}
+
+.con1Row2 h2{
+  font-size: 30pt;
+}
+
+.con1Row2 a{
+  color: #fff;
+  text-decoration: none;
+  background-color: #0099cc;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+.con1Row2 i{
+  font-size: 24pt;
+}
+
+.con1Row2 a:hover{
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.conatiner1 section{
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+
+.con1Row3{
+  margin-top: 50px;
+}
+
+.conatiner1 section a{
+  color: gray;
+  font-family: 'Red Hat Mono', monospace;
+  text-decoration: none;
+  font-size: 24pt;
+  font-weight: bolder;
+}
+
+.conatiner1 section a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.conatiner1 section img{
+  width: 60px;
+  height: auto;
+}
+/*------------------------------------*/
+
+.container2{
+  width: 98%;
+  margin: auto;
+}
+
+.container2 h1{
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.con2Row1{
+  width: 100%;
+  margin: auto;
+}
+
+.con2Col1{
+  width: 100%;
+  float: left;
+}
+
+.con2Col2, .con2Col3{
+  width: 50%;
+  float: left;
+}
+
+.con2Col2 img{
+  height: 700px;
+  width: auto;
+  float: right;
+}
+
+.con2Col3 img{
+  height: 700px;
+  width: auto;
+  float: left;
+}
+
+
+#container3{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  background-image: url('Cordilleran Igorot Dishes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+#container3 h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.con3Row1{
+  width: 1000px;
+  margin: auto;
+}
+
+p{
+  text-indent: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+  line-height: 30px;
+}
+
+.con3Row1 button, .con4Row3 button, .con4Col2 button{
+  display: none;
+}
+
+.container4{
+  width: 100%;
+  float: left;
+}
+
+.con4Row1{
+  margin-top: 50px;
+  width: 1100px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.con4Col1{
+  width: 33.33%;
+  float: left;
+}
+
+.con4Col1 fieldset{
+  height: 350px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.con4Col1 img{
+  width: 100px;
+  height: auto;
+}
+
+.con4Col1 h2{
+  font-family: 'Red Hat Mono', monospace;
+  text-align: center;
+}
+
+li, p{
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.con4Col1 ul{
+  list-style: none;
+  text-align: left;
+}
+
+.con4Row2{
+  width: 100%;
+  background-color: white;
+  float: left;
+  margin-top: 50px;
+}
+
+.con4Row2 h1{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.con4Row3, .con4Row5{
+  width: 1100px;
+  margin: auto;
+}
+
+.con4Col2{
+  width: 50%;
+  float: left;
+}
+
+.con4Col2 img{
+  width: 95%;
+  height: auto;
+}
+
+.container5{
+  width: 100%;
+  float: left;
+  background-color: #fff;
+}
+
+.con5Row1{
+  width: 1100px;
+  margin: auto;
+}
+
+.con5Col1{
+  width: 50%;
+  float: left;
+}
+
+.con5Col1 img{
+  width: 100%;
+  height: auto;
+}
+#more3, #more4{
+  display: none;
+}
+
+
+
+
+
+#container6{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+#container6 h1{
+  text-align: center;
+}
+
+.con6Row1{
+  width: 1100px;
+  margin: auto;
+}
+
+.con6Col1{
+  width: 33.33%;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.con6Col1 h2{
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+#container7{
+  margin-top: 50px;
+  width: 100%;
+  float: left;
+  padding-bottom: 100px;
+}
+
+.con7Row1{
+  width: 1100px;
+  margin: auto;
+}
+
+.con7Row1 h1{
+  text-align: center;
+}
+
+.con7Col1{
+  width: 50%;
+  float: left;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16pt;
+}
+
+.con7Col1 p{
+  font-size: 14pt;
+  line-height: 30px;
+}
+.con7Col1 iframe{
+  width: 100%;
+  height: 400px;
+}
+
+.con7Col1 a{
+  text-decoration: none;
+  padding: 15px;
+  background-color: #0099cc;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.con7Col1 a:hover{
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+
+footer{
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Row{
+  width: 1100px;
+  margin: auto;
+}
+
+.col{
+  width: 50%;
+  float: left;
+}
+
+.col a{
+  float: right;
+}
+
+.col a:hover{
+  cursor: pointer;
+}
+
+.col a img{
+  width: 30px;
+  height: auto;
+  margin-left: 5px;
+}
+
+
+@media screen and (max-width: 1100px){
+  .con1Col1c{
+    display: none;
+  }
+
+  .con1Col1{
+    width: 50%;
+  }
+
+  .con1Col1b{
+    float: right;
+  }
+
+  .con4Row1{
+    width: 100%;
+  }
+
+  .con4Row3, .con4Row5, .con5Row1{
+    width: 98%;
+  }
+
+  .con6Row1, .con7Row1{
+    width: 100%;
+  }
+
+  .Row{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+  .con2Row1{
+    width: 100%;
+  }
+
+  .con3Row1{
+    width: 98%;
+    margin: auto;
+  }
+
+  .con4Col1 fieldset{
+    height: 400px;
+  }
+
+  .con7Col1{
+    width: 100%;
+    float: none;
+  }
+  
+}
+
+@media screen and (max-width: 850px){
+  .con1Col1{
+    width: 100%;
+  }
+
+  .con1Col1a, .con1Col1b{
+    float: none;
+    margin: auto;
+  }
+
+  .con2Col2 img, .con2Col3 img{
+    width: 100%;
+    height: auto;
+  }
+
+  #more, #more1, .con4Row5 img, #more2 {
+    display: none;
+  }
+
+  .con3Row1 button, .con4Row3 button, .con4Col2 button{
+    display: inline;
+  }
+
+  .con4Col1 fieldset{
+    height: 420px;
+  }
+
+  .con4Col2, .con5Col1{
+    width: 98%;
+    float: none;
+    margin: auto;
+  }
+
+  .con4Col2 img, .con5Col1 img{
+    display: none;
+  }
+
+  .con6Col1{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .con4Col1{
+    width: 400px;
+    float: none;
+    margin: auto;
+  }
+
+  .con4Col1 fieldset{
+    height: auto;
+  }
+
+  .con6Col1{
+    width: 95%;
+    float: none;
+    margin: auto;
+  }
+
+  .col{
+    width: 100%;
+    text-align: center;
+  }
+
+  .col a{
+    float: none;
+  }
+
+  .col a img{
+    margin-top: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 450px){
+  .conatiner1{
+    height: 500px;
+  }
+  .con1Col1b{
+    display: none;
+  }
+
+  .con1Row2{
+    margin-top: 50px;
+  }
+
+  .con1Row2 h2{
+    font-size: 16pt;
+  }
+
+  .con1Row2 i{
+    font-size: 18pt;
+  }
+
+  .con1Row2 a{
+    font-size: 14pt;
+  }
+
+  p{
+    font-size: 12pt;
+  }
+
+  .con4Col1{
+    width: 100%;
+    float: left;
+  }
+
+  fieldset{
+    text-align: left;
+  }
+
+  .con7Col1 a{
+    font-size: 14pt;
+  }
+
+}
+
+@media screen and (max-width: 330px){
+  .con1Col1a{
+    width: 250px;
+  }
+  .con1Col1a img{
+    width: 40px;
+    margin-top: 8px;
+  }
+
+  .con1Col1a h1{
+    font-size: 14pt;
+  }
+
+  .con2Col2, .con2Col3{
+    width: 100%;
+  }
+
+  #container6 h1{
+    font-size: 18pt;
+  }
+
+  .con6Col1 h2{
+    font-size: 14pt;
+  }
+}
